@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Wedding of Ninda &amp; Iftah</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="no-scroll bg-kawung">
+
+  <!-- 1. OPENING COVER -->
+  <div id="opening-cover" class="bg-kawung">
+    <div id="cover-bg-photo" class="cover-bg-photo"></div>
+    <div class="cover-overlay"></div>
+
+    <div class="cover-content">
+      <svg class="pendopo-svg" viewBox="0 0 200 90" stroke-width="1.5">
+        <path d="M100 10 L145 35 L55 35 Z" />
+        <path d="M55 35 L185 60 L15 60 Z" />
+        <line x1="40" y1="60" x2="40" y2="85" />
+        <line x1="75" y1="60" x2="75" y2="85" />
+        <line x1="125" y1="60" x2="125" y2="85" />
+        <line x1="160" y1="60" x2="160" y2="85" />
+        <line x1="20" y1="85" x2="180" y2="85" />
+      </svg>
+
+      <p class="cover-label">The Wedding Of</p>
+      <h1 class="cover-names" id="cover-couple-names">Ninda &amp; Iftah</h1>
+      <p class="cover-date" id="cover-wedding-date">Minggu, 29 November 2026</p>
+
+      <div class="guest-box">
+        <p>Kepada Yth. Bapak/Ibu/Saudara/i</p>
+        <h3 id="guest-name">Tamu Undangan</h3>
+      </div>
+
+      <button type="button" class="btn btn-primary" id="btn-open-invitation">
+        Buka Undangan
+      </button>
+    </div>
+  </div>
+
+  <!-- 2. HEADER NAVIGASI -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="#home" class="brand-logo" id="nav-monogram">N &amp; I</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#mempelai">Mempelai</a></li>
+          <li><a href="#acara">Acara</a></li>
+          <li><a href="#story">Our Story</a></li>
+          <li><a href="#galeri">Galeri</a></li>
+          <li><a href="#rsvp">RSVP</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 3. HERO SECTION -->
+  <section id="home" class="hero">
+    <div id="hero-photo" class="hero-bg photo-slot" data-placeholder="Slot Foto Hero"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <span class="section-subtitle">Undangan Pernikahan</span>
+      <h2 class="hero-names" id="hero-couple-names">Ninda &amp; Iftah</h2>
+      <p class="hero-meta" id="hero-meta">29 November 2026 &bull; Boyong Sari Gg 1 Panjang Baru, Pekalongan</p>
+      <a href="#mempelai" class="btn btn-outline">Selengkapnya</a>
+    </div>
+  </section>
+
+  <!-- 4. PROFIL MEMPELAI -->
+  <section id="mempelai" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Assalamu'alaikum Wr. Wb.</span>
+        <h2 class="section-title">Mempelai Berbahagia</h2>
+        <div class="gold-divider"><span></span></div>
+      </div>
+
+      <div class="couple-grid">
+        <div class="couple-card">
+          <div class="couple-arch">
+            <div id="bride-photo" class="photo-slot" data-placeholder="Foto Ninda"></div>
+          </div>
+          <h3 class="couple-name" id="bride-name">Ninda Alfyana Wahyono</h3>
+          <p class="couple-parents" id="bride-parents">Putri dari Bapak Wahyono Raharjo &amp; Ibu Siti Rodliyah</p>
+        </div>
+
+        <div class="couple-card">
+          <div class="couple-arch">
+            <div id="groom-photo" class="photo-slot" data-placeholder="Foto Iftah"></div>
+          </div>
+          <h3 class="couple-name" id="groom-name">Iftah Al-Qouf</h3>
+          <p class="couple-parents" id="groom-parents">Putra dari Bapak M. Abdullah &amp; Ibu Endang Puji Astuti</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. QUOTE & 6. COUNTDOWN -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="quote-box">
+        <p class="quote-text">
+          “Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan-pasangan dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan sayang.”
+        </p>
+        <span class="quote-source">QS. Ar-Rum : 21</span>
+      </div>
+
+      <div class="countdown-grid" id="countdown">
+        <div class="countdown-item">
+          <span class="countdown-number" id="cd-days">00</span>
+          <span class="countdown-label">Hari</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-number" id="cd-hours">00</span>
+          <span class="countdown-label">Jam</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-number" id="cd-minutes">00</span>
+          <span class="countdown-label">Menit</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-number" id="cd-seconds">00</span>
+          <span class="countdown-label">Detik</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. DETAIL ACARA & 8. LOKASI -->
+  <section id="acara" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Rangkaian Acara</span>
+        <h2 class="section-title">Waktu &amp; Tempat</h2>
+        <div class="gold-divider"><span></span></div>
+      </div>
+
+      <div class="event-grid">
+        <div class="event-card">
+          <span class="event-badge">Prosesi Sakral</span>
+          <h3 class="event-title">Akad Nikah</h3>
+          <p class="event-detail"><strong>Minggu, 29 November 2026</strong></p>
+          <p class="event-detail" id="akad-time">08.00 WIB – Selesai</p>
+          <p class="event-detail" id="akad-venue">Kediaman Mempelai Wanita</p>
+        </div>
+
+        <div class="event-card">
+          <span class="event-badge">Syukuran &amp; Ramah Tamah</span>
+          <h3 class="event-title">Resepsi Pernikahan</h3>
+          <p class="event-detail"><strong>Minggu, 29 November 2026</strong></p>
+          <p class="event-detail" id="resepsi-time">Pukul 12.30 WIB – Selesai</p>
+          <p class="event-detail" id="resepsi-venue">Kediaman Mempelai Wanita</p>
+        </div>
+      </div>
+
+      <div class="map-box">
+        <div class="map-placeholder">
+          <strong style="margin-bottom: 6px;">Lokasi Acara</strong>
+          <p id="venue-address">Boyong Sari Gg 1 Panjang Baru, Pekalongan</p>
+        </div>
+        <a href="https://maps.app.goo.gl/PvAzr34GouhcBVex5" target="_blank" rel="noopener" id="btn-google-maps" class="btn btn-primary">
+          Buka Google Maps
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. OUR STORY -->
+  <section id="story" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Perjalanan Cinta</span>
+        <h2 class="section-title">Our Story</h2>
+        <div class="gold-divider"><span></span></div>
+      </div>
+
+      <div class="story-grid" id="story-container"></div>
+    </div>
+  </section>
+
+  <!-- 10. GALERI FOTO -->
+  <section id="galeri" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Momen Bahagia</span>
+        <h2 class="section-title">Galeri Foto</h2>
+        <div class="gold-divider"><span></span></div>
+      </div>
+
+      <div class="gallery-grid" id="gallery-container"></div>
+    </div>
+  </section>
+
+  <!-- 11. RSVP & 12. WEDDING WISHES -->
+  <section id="rsvp" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Konfirmasi &amp; Doa</span>
+        <h2 class="section-title">RSVP &amp; Ucapan</h2>
+        <div class="gold-divider"><span></span></div>
+      </div>
+
+      <div class="rsvp-wishes-grid">
+        <div class="card-panel">
+          <h3 class="event-title" style="font-size: 1.5rem;">Konfirmasi Kehadiran</h3>
+          <form id="rsvp-form">
+            <div class="form-group">
+              <label for="rsvp-name">Nama Lengkap</label>
+              <input type="text" id="rsvp-name" class="form-control" required placeholder="Masukkan nama Anda" />
+            </div>
+            <div class="form-group">
+              <label for="rsvp-status">Status Kehadiran</label>
+              <select id="rsvp-status" class="form-control">
+                <option value="Hadir">InsyaAllah Hadir</option>
+                <option value="Tidak Hadir">Maaf, Belum Bisa Hadir</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="rsvp-guests">Jumlah Tamu</label>
+              <select id="rsvp-guests" class="form-control">
+                <option value="1">1 Orang</option>
+                <option value="2">2 Orang</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Kirim RSVP</button>
+            <p id="rsvp-feedback" class="feedback-text"></p>
+          </form>
+        </div>
+
+        <div class="card-panel">
+          <h3 class="event-title" style="font-size: 1.5rem;">Doa &amp; Ucapan</h3>
+          <form id="wish-form">
+            <div class="form-group">
+              <label for="wish-name">Nama Pengirim</label>
+              <input type="text" id="wish-name" class="form-control" required placeholder="Nama Anda" />
+            </div>
+            <div class="form-group">
+              <label for="wish-message">Ucapan &amp; Doa Restu</label>
+              <textarea id="wish-message" rows="3" class="form-control" required placeholder="Tuliskan doa terbaik untuk kedua mempelai..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Kirim Ucapan</button>
+          </form>
+
+          <div class="wishes-list" id="wishes-list"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 13. WEDDING GIFT -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Tanda Kasih</span>
+        <h2 class="section-title">Wedding Gift</h2>
+        <div class="gold-divider"><span></span></div>
+      </div>
+
+      <div class="gift-grid" id="gift-container"></div>
+    </div>
+  </section>
+
+  <!-- 14. FOOTER -->
+  <footer class="bg-kawung">
+    <div class="container">
+      <svg class="pendopo-svg" viewBox="0 0 200 90" stroke-width="1.5">
+        <path d="M100 10 L145 35 L55 35 Z" />
+        <path d="M55 35 L185 60 L15 60 Z" />
+        <line x1="40" y1="60" x2="40" y2="85" />
+        <line x1="75" y1="60" x2="75" y2="85" />
+        <line x1="125" y1="60" x2="125" y2="85" />
+        <line x1="160" y1="60" x2="160" y2="85" />
+        <line x1="20" y1="85" x2="180" y2="85" />
+      </svg>
+
+      <p class="footer-quote">
+        Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.
+      </p>
+      <h2 class="footer-names" id="footer-couple-names">Ninda &amp; Iftah</h2>
+      <p class="footer-date">29 November 2026</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
